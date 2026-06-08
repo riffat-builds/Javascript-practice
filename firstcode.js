@@ -59,3 +59,8 @@ else if (marks > 50) grade = "D Grade";
 console.log(`${studentName} got ${grade}`);
 const ispass = marks >= 50 ? "Pass" : "fail";
 console.log(ispass);
+//For loop table
+const t = 7;
+for (let i = 1; i <= 10; i++) {
+  console.log(`${t} x ${i} = ${t * i}`);
+}
