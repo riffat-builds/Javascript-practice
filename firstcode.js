@@ -64,3 +64,8 @@ const t = 7;
 for (let i = 1; i <= 10; i++) {
   console.log(`${t} x ${i} = ${t * i}`);
 }
+//Array + loop practice
+const students = ["Riffat", "Sara", "Ayesha", "Fatima"];
+for (let i = 0; i < students.length; i++) {
+  console.log(`Student ${i + 1} : ${students[i]}`);
+}
